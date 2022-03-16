@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrategia_1", "Estrategia_1\Estrategia_1.csproj", "{6297C65D-97F6-4CF2-93EE-D2D4AF7477D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorador_1", "Decorador_1\Decorador_1.csproj", "{66561631-F567-4069-9EFF-CFEFE343457C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorador_1", "Decorador_1\Decorador_1.csproj", "{66561631-F567-4069-9EFF-CFEFE343457C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3ProxyPattern", "3ProxyPattern\3ProxyPattern.csproj", "{90A6B7C2-7BB8-49E9-8299-86CAFEEF56DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{66561631-F567-4069-9EFF-CFEFE343457C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66561631-F567-4069-9EFF-CFEFE343457C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66561631-F567-4069-9EFF-CFEFE343457C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A6B7C2-7BB8-49E9-8299-86CAFEEF56DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A6B7C2-7BB8-49E9-8299-86CAFEEF56DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A6B7C2-7BB8-49E9-8299-86CAFEEF56DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A6B7C2-7BB8-49E9-8299-86CAFEEF56DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
