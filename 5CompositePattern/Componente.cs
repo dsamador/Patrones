@@ -27,5 +27,20 @@ namespace _5CompositePattern
             //retornamos al mismo componente que tenemos
             return this;
         }
+
+        public IComponente<T> Buscar(T elemento)
+        {
+            if (elemento.Equals(Nombre))
+                return this;
+            else
+                return null;
+        }
+
+        public string Mostrar(int profundidad)
+        {
+            //colocamos la cantidad de - segun la profundidad
+            return new String('-', profundidad) + Nombre + "\n\r";
+        }
     }
 }
+//5:31
